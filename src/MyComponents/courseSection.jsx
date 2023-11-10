@@ -30,21 +30,20 @@ const courseSection = function App() {
               positions
             </p>
           </div>
-
-          <div className="course-button">
-            <div className="button-1">
-              <button>
-                <a href="#">Enroll Now!</a>
-              </button>
-            </div>
-            <div className="button-2">
-              <button>
-                <a href="#">Download Brochure</a>
-              </button>
-            </div>
-            <div className="button-content">
-              <p>₦150,000</p>
-            </div>
+        </div>
+        <div className="course-button">
+          <div className="button-1">
+            <button>
+              <a href="#">Enroll Now!</a>
+            </button>
+          </div>
+          <div className="button-2">
+            <button>
+              <a href="#">Download Brochure</a>
+            </button>
+          </div>
+          <div className="button-content">
+            <p>₦150,000</p>
           </div>
         </div>
       </div>
@@ -64,21 +63,20 @@ const courseSection = function App() {
               positions.
             </p>
           </div>
-
-          <div className="course-button">
-            <div className="button-1">
-              <button>
-                <a href="#">Enroll Now!</a>
-              </button>
-            </div>
-            <div className="button-2">
-              <button>
-                <a href="#">Download Brochure</a>
-              </button>
-            </div>
-            <div className="button-content">
-              <p>₦150,000</p>
-            </div>
+        </div>
+        <div className="course-button">
+          <div className="button-1">
+            <button>
+              <a href="#">Enroll Now!</a>
+            </button>
+          </div>
+          <div className="button-2">
+            <button>
+              <a href="#">Download Brochure</a>
+            </button>
+          </div>
+          <div className="button-content">
+            <p>₦150,000</p>
           </div>
         </div>
       </div>
@@ -98,21 +96,20 @@ const courseSection = function App() {
               positions.
             </p>
           </div>
-
-          <div className="course-button">
-            <div className="button-1">
-              <button>
-                <a href="#">Enroll Now!</a>
-              </button>
-            </div>
-            <div className="button-2">
-              <button>
-                <a href="#">Download Brochure</a>
-              </button>
-            </div>
-            <div className="button-content">
-              <p>₦100,000</p>
-            </div>
+        </div>
+        <div className="course-button">
+          <div className="button-1">
+            <button>
+              <a href="#">Enroll Now!</a>
+            </button>
+          </div>
+          <div className="button-2">
+            <button>
+              <a href="#">Download Brochure</a>
+            </button>
+          </div>
+          <div className="button-content">
+            <p>₦100,000</p>
           </div>
         </div>
       </div>
@@ -133,21 +130,20 @@ const courseSection = function App() {
               personas, and conducting usability testing.
             </p>
           </div>
-
-          <div className="course-button">
-            <div className="button-1">
-              <button>
-                <a href="#">Enroll Now!</a>
-              </button>
-            </div>
-            <div className="button-2">
-              <button>
-                <a href="#">Download Brochure</a>
-              </button>
-            </div>
-            <div className="button-content">
-              <p>₦150,000</p>
-            </div>
+        </div>
+        <div className="course-button">
+          <div className="button-1">
+            <button>
+              <a href="#">Enroll Now!</a>
+            </button>
+          </div>
+          <div className="button-2">
+            <button>
+              <a href="#">Download Brochure</a>
+            </button>
+          </div>
+          <div className="button-content">
+            <p>₦150,000</p>
           </div>
         </div>
       </div>
@@ -167,21 +163,20 @@ const courseSection = function App() {
               positions
             </p>
           </div>
-
-          <div className="course-button">
-            <div className="button-1">
-              <button>
-                <a href="#">Enroll Now!</a>
-              </button>
-            </div>
-            <div className="button-2">
-              <button>
-                <a href="#">Download Brochure</a>
-              </button>
-            </div>
-            <div className="button-content">
-              <p>₦150,000</p>
-            </div>
+        </div>
+        <div className="course-button">
+          <div className="button-1">
+            <button>
+              <a href="#">Enroll Now!</a>
+            </button>
+          </div>
+          <div className="button-2">
+            <button>
+              <a href="#">Download Brochure</a>
+            </button>
+          </div>
+          <div className="button-content">
+            <p>₦150,000</p>
           </div>
         </div>
       </div>

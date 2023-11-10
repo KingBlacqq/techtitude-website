@@ -300,6 +300,7 @@
 
 .course-container{
   background-color: #FFFFFF;
+  height: 77rem;
 }
 
 .course-content{
@@ -327,7 +328,7 @@
 .course-module{
   background-color: #805CA5;
   width: 73.31rem;
-  height: 11.06rem;
+  height: 12.06rem;
   margin-top: 1.69rem;
   margin-left: 7.5rem;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -338,12 +339,226 @@
 }
 
 .course-data img{
-  width: 8.75rem;
-  height: 8.25rem;
+  width: 7.50rem;
+  height: 7.50rem;
+  margin-top: 2.2rem;
+  margin-left: 1.5rem;
 }
 
-@media screen and (min-width: 1024px) {
- .entire-section {
-  width: 90rem;
- }
+.course-item{
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.course-item h2{
+ color: #F0C20C;
+ font-size: 1.5rem;
+ font-weight: 600;
+ font-family: BR Firma;
+ line-height: 2.63rem;
+}
+
+.course-item p{
+  color: #FFF;
+  font-family: BR Firma;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.course-button{
+  display: flex;
+  margin-left: 10rem;
+  margin-top: -0.5rem;
+  gap: 0.5rem;
+  border: none;
+}
+
+.button-1 button{
+  width: 7.5rem;
+  height: 2rem;
+  border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+  border: none;
+  background-color: #FFF;
+}
+
+.button-1 button a{
+   font-size: 1.13rem;
+   font-family: BR Firma;
+   font-weight: 500;
+   color: #805CA5;
+   text-align: center;
+}
+
+.button-2 button{
+  width: 12rem;
+  height: 2rem;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  border: 0.01rem solid #fff;
+  background-color: #805CA5;
+}
+
+.button-2 button a{
+  color: #FFF;
+  font-family: BR Firma;
+  font-weight: 500;
+  font-size: 1.13rem;
+}
+
+.button-content{
+  margin-left: 35.5rem;
+  margin-top: 0.5rem;
+}
+
+.button-content p{
+  font-size: 1.13rem;
+  font-family: BR Firma;
+  font-weight: 500;
+  color: #F0C20C;
+}
+
+.instructor-container{
+  background-color: #CCCCFF40;
+  height: 45rem;
+}
+
+.instructor-content{
+ padding-top: 4.1rem;
+}
+
+.instructor-content h1{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4F92CE;
+  text-align: center;
+  font-family: BR Firma;
+  line-height: 1.83rem;
+}
+
+.instructor-content h2{
+ font-family: BR Firma;
+ text-align: center;
+ color: #805CA5;
+ font-size: 2.5rem;
+ font-weight: 700;
+ height: 3.95rem;
+}
+
+.instructor-content p{
+  font-family: BR Firma;
+  color: #000000;
+  font-size: 1.45rem;
+  text-align: justify;
+  margin-left: 11rem;
+  max-width: 68rem;
+  line-break: 2.5rem;
+}
+
+.footer-container{
+  background-color: #805CA5;
+  height: 23.06rem;
+}
+.footer-layout{
+  display: flex;
+  padding: 4rem 4rem 9rem 9rem;
+  gap: 3rem;
+}
+
+.footer-layout .footer-nav{
+  /* padding-left: 2rem; */
+  display: flex;
+  gap: 3rem;
+  /* flex-direction: column; */
+}
+
+.footer-layout .layout-1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 9rem;
+}
+.footer-layout .footer-nav a{
+  font-family: BR Firma;
+  font-weight: 700;
+  color: #FFF;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+}
+
+.layout-1 p{
+  font-size: 1rem;
+  font-family: BR Firma;
+  font-weight: 500;
+  max-width: 30rem;
+  padding-top: 2rem;
+  line-height: 1.5rem;
+  color: #FFF;
+}
+
+.input{
+  position: relative;
+  width: 26.5rem;
+  background-color: linear-gradient(275deg, #805CA5, #4F92CE);
+
+}
+
+.input  input{
+  width: 100%;
+  border: none;
+  padding-inline: 1.5rem;
+  padding-block: 1.5rem;
+  font-family: BR Firma;
+  color: rgba(51, 51, 51, 0.50);
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  
+
+}
+.newsletter-button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0.5rem;
+  width: 7.5rem;
+  height: 3rem;
+  text-align: center;
+  color: #FFF;
+  font-family: BR Firma;
+  font-weight: 700;
+  margin-right: 0.9rem;
+  background-image: linear-gradient(275deg, #805CA5, #4F92CE);
+  border: none;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.caption{
+  color: #FFF;
+  font-family: BR Firma;
+  line-height: 1.19rem;
+  font-size: 1.13rem;
+  padding-bottom: 0.5rem;
+}
+
+.footer-icon{
+  width: 10.38rem;
+  height: 1.56rem;
+  padding-top: 1rem;
+}
+
+hr{
+  width: 76rem;
+  height: 0.063rem;
+  align-self: center;
+  text-align: center;
+  margin-left: 9rem;
+}
+
+
+.copyright-footer{
+  margin-top: -5rem;
+
+}
+.copy-right{
+  text-align: center;
+  font-family: BR Firma;
+  color: #FFF;
+  padding-top: 2rem;
+  font-size: 1.125rem;
 }
