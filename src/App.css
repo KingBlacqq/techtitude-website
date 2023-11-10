@@ -1,0 +1,342 @@
+@import url("https://fonts.cdnfonts.com/css/br-firma");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.main-container {
+  background-color: #ffffff;
+  cursor: wait;
+}
+.nar-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+  padding: 3rem 4rem;
+}
+.nav-logo {
+  width: 6rem;
+  height: 7.25rem;
+  margin-top: 5.9375rem;
+  margin-left: 5.8125rem;
+}
+
+.nav-logo img {
+  width: 100%;
+}
+
+.nav-links {
+  width: 7.25rem;
+  height: 1.25rem;
+  margin-top: -4rem;
+  margin-left: 50.8125rem;
+}
+.nav-links ul {
+  align-items: center;
+  display: flex;
+  justify-self: start;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.nav-links a {
+  color: #333333;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: BR Firma, san-serif;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.nav-button button {
+  text-align: center;
+  justify-content: space-evenly;
+  display: flex;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  margin-top: -2.3rem;
+  margin-left: 75rem;
+  background-image: linear-gradient(-50deg, #805ca5, #4f92ce);
+  border: none;
+}
+
+.nav-button button a {
+  color: white;
+  font-family: BR Firma;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.main-content {
+  width: 75rem;
+  height: 31rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+  background-color: #ccccff47;
+  margin-top: 5rem;
+  margin-left: 5.9rem;
+  border: 0.2rem solid rgb(175, 175, 203);
+  overflow: visible;
+  box-shadow: 0.4rem 0.5rem #0000000f;
+}
+
+.head-content {
+  width: 25.6875rem;
+  height: 12rem;
+  margin-top: 5.375rem;
+  margin-left: 4.75rem;
+}
+
+.head-content h2 {
+  line-height: 4rem;
+  text-transform: none;
+  font-family: BR Firma;
+  color: #805ca5;
+  font-style: italic;
+  font-size: 4rem;
+  height: 1rem;
+}
+
+.head-content p {
+  width: 28.19rem;
+  height: 5.44rem;
+  margin-top: 11.56rem;
+  size: 1.5rem;
+  line-height: 1.9rem;
+  font-size: 1.5rem;
+  font-family: BR Firma;
+}
+
+.head-button {
+  width: 10.75rem;
+  height: 3.25rem;
+  margin-top: 7.187rem;
+  margin-left: 4.5rem;
+  border: none;
+}
+
+.head-button button {
+  /* height: 1.875rem; */
+  width: 16.5rem;
+  background-image: linear-gradient(-50deg, #805ca5, #4f92ce);
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  border: none;
+}
+
+.head-button button a {
+  font-size: 1.5rem;
+  font-family: BR Firma;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.head-image {
+  width: 41rem;
+  height: 36rem;
+  margin-top: -33rem;
+  margin-left: 38rem;
+  display: flex;
+  flex-direction: wrap;
+}
+
+.head-carousel {
+  display: flex;
+  max-width: 100rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+
+.head-carousel .carousel-card {
+  width: 19.6rem;
+  height: 23.3rem;
+  margin-top: 4.13rem;
+  margin-left: 2.94rem;
+  border-radius: 0.75rem;
+  border: 0.2rem solid rgb(175, 175, 203);
+  background-color: #ccccff3e;
+}
+
+.carousel-card .ellipse {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 100%;
+  border: 0.5rem solid #4f92ce;
+  background-color: #4f92ce;
+  margin-left: 6.5rem;
+  margin-top: 3rem;
+}
+
+.carousel-card .ellipse-icon {
+  display: flex;
+  width: 3.25rem;
+  height: 2.4rem;
+  margin-top: -3.5rem;
+  color: #ffffff;
+  margin-left: 7.5rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-content h2 {
+  text-align: center;
+  font-family: BR Firma;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #37014f;
+  margin-top: 2rem;
+}
+
+.carousel-content p {
+  text-align: center;
+  font-family: BR Firma;
+  padding: 1rem 1rem 1rem 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.26rem;
+  color: #333333;
+}
+
+/* testimonial-section */
+
+.testimonial-container {
+  width: 90rem;
+  height: 32.94rem;
+  background-color: #805ca5;
+  padding-bottom: 75rem;
+}
+
+.testimonial-text h1 {
+  font-size: 1.5rem;
+  font-family: BR Firma;
+  font-style: normal;
+  font-weight: 700;
+  color: #f0c20c;
+  line-height: 1.83rem;
+  margin-top: 1.125rem;
+  margin-bottom: 1rem;
+  padding-top: 3.5rem;
+  text-emphasis: none;
+  text-align: center;
+}
+
+.testimonial-text h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-family: BR Firma;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.01rem;
+}
+
+.client-reviews {
+  width: 73rem;
+  height: 16.50rem;
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+  margin-left: 8.5rem;
+  margin-bottom: 2.69rem;
+  margin-top: 2rem;
+}
+
+.client-reviews .testimonial-star {
+  padding-top: 2rem;
+  margin-left: 2rem;
+  width: 5rem;
+  height: 0.875rem;
+}
+
+.client-reviews .testimonial-quote {
+  margin-top: 2rem;
+  color: #333333;
+  font-family: BR Firma;
+  font-weight: 500;
+  font-size: 0.9rem;
+  font-style: normal;
+  margin-left: 2rem;
+  max-width: 68rem;
+}
+
+.testimonial-author {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  display: flex;
+
+}
+
+.testimonial-author .rectangle{
+  width: 2.90rem;
+  height: 2.90rem;
+  margin-top: 0.5rem;
+}
+
+.testimonial-author .author-name {
+  margin-left: 0.5rem;
+  font-family: BR Firma;
+  font-size: 1.2rem;
+  font-style: normal;
+  color: #333333;
+  margin-top: 0.3rem;
+}
+
+.testimonial-author .author-title{
+  font-family: BR Firma;
+  font-size: 0.75rem;
+  color: rgba(51, 51, 51, 0.50);
+  font-style: italic;
+  font-weight: 500;
+  
+}
+
+.course-container{
+  background-color: #FFFFFF;
+}
+
+.course-content{
+  /* margin-left: 41rem; */
+  margin-top: 3.13rem;
+  text-align: center;
+}
+
+.course-content h2{
+  color: #4F92CE;
+  font-family: BR Firma;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.course-content p{
+  color: #805CA5;
+  font-family: BR Firma;
+  font-style: normal;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.course-module{
+  background-color: #805CA5;
+  width: 73.31rem;
+  height: 11.06rem;
+  margin-top: 1.69rem;
+  margin-left: 7.5rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.course-data{
+ display: flex;
+}
+
+.course-data img{
+  width: 8.75rem;
+  height: 8.25rem;
+}
