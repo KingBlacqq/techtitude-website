@@ -8,7 +8,7 @@ import footerSection from "./MyComponents/footerSection";
 
 function App() {
   return (
-    <div>
+    <div className="entire-section">
       
       {headerSection()}
       {testimonialSection()}

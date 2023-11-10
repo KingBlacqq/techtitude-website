@@ -10,6 +10,7 @@
 .main-container {
   background-color: #ffffff;
   cursor: wait;
+
 }
 .nar-bar {
   display: flex;
@@ -339,4 +340,10 @@
 .course-data img{
   width: 8.75rem;
   height: 8.25rem;
+}
+
+@media screen and (min-width: 1024px) {
+ .entire-section {
+  width: 90rem;
+ }
 }
