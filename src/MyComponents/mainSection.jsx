@@ -4,8 +4,10 @@ import {
   CV_ICON,
   INTERNSHIP_ICON,
   LADY_ICON,
+  MENTORSHIP_ICON,
   PROJECT_ICON,
   TECHTITUDE_LOGO,
+
 } from "../assets/IMAGES/img";
 
 const headerSection = function App() {
@@ -76,7 +78,9 @@ const headerSection = function App() {
 
         <div className="carousel-card">
           <div className="ellipse"></div>
-          <div className="ellipse-icon"></div>
+          <div className="ellipse-icon">
+         <img src={MENTORSHIP_ICON} alt="MENTORSHIP ICON" />
+          </div>
           <div className="carousel-content">
             <h2>Mentorship</h2>
             <p>

@@ -10,7 +10,6 @@
 .main-container {
   background-color: #ffffff;
   cursor: wait;
-
 }
 .nar-bar {
   display: flex;
@@ -18,6 +17,7 @@
   justify-content: space-evenly;
   margin-top: 5rem;
   padding: 3rem 4rem;
+  /* border:2px solid red; */
 }
 .nav-logo {
   width: 6rem;
@@ -152,6 +152,7 @@
 
 .head-carousel {
   display: flex;
+
   max-width: 100rem;
   padding-right: 5rem;
   padding-bottom: 5rem;
@@ -165,6 +166,13 @@
   border-radius: 0.75rem;
   border: 0.2rem solid rgb(175, 175, 203);
   background-color: #ccccff3e;
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* padding-inline: 7rem; */
+    margin-left: 2rem;
+  }
 }
 
 .carousel-card .ellipse {
@@ -241,7 +249,7 @@
 
 .client-reviews {
   width: 73rem;
-  height: 16.50rem;
+  height: 16.5rem;
   border-radius: 0.75rem;
   background-color: #ffffff;
   margin-left: 8.5rem;
@@ -271,12 +279,11 @@
   margin-left: 2rem;
   margin-top: 1rem;
   display: flex;
-
 }
 
-.testimonial-author .rectangle{
-  width: 2.90rem;
-  height: 2.90rem;
+.testimonial-author .rectangle {
+  width: 2.9rem;
+  height: 2.9rem;
   margin-top: 0.5rem;
 }
 
@@ -289,44 +296,43 @@
   margin-top: 0.3rem;
 }
 
-.testimonial-author .author-title{
+.testimonial-author .author-title {
   font-family: BR Firma;
   font-size: 0.75rem;
-  color: rgba(51, 51, 51, 0.50);
+  color: rgba(51, 51, 51, 0.5);
   font-style: italic;
   font-weight: 500;
-  
 }
 
-.course-container{
-  background-color: #FFFFFF;
+.course-container {
+  background-color: #ffffff;
   height: 77rem;
 }
 
-.course-content{
+.course-content {
   /* margin-left: 41rem; */
   margin-top: 3.13rem;
   text-align: center;
 }
 
-.course-content h2{
-  color: #4F92CE;
+.course-content h2 {
+  color: #4f92ce;
   font-family: BR Firma;
   font-weight: 700;
   font-style: normal;
   font-size: 1.5rem;
 }
 
-.course-content p{
-  color: #805CA5;
+.course-content p {
+  color: #805ca5;
   font-family: BR Firma;
   font-style: normal;
   font-size: 2.5rem;
   font-weight: 700;
 }
 
-.course-module{
-  background-color: #805CA5;
+.course-module {
+  background-color: #805ca5;
   width: 73.31rem;
   height: 12.06rem;
   margin-top: 1.69rem;
@@ -334,38 +340,38 @@
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
-.course-data{
- display: flex;
+.course-data {
+  display: flex;
 }
 
-.course-data img{
-  width: 7.50rem;
-  height: 7.50rem;
+.course-data img {
+  width: 7.5rem;
+  height: 7.5rem;
   margin-top: 2.2rem;
   margin-left: 1.5rem;
 }
 
-.course-item{
+.course-item {
   margin-top: 2rem;
   margin-left: 1rem;
 }
 
-.course-item h2{
- color: #F0C20C;
- font-size: 1.5rem;
- font-weight: 600;
- font-family: BR Firma;
- line-height: 2.63rem;
+.course-item h2 {
+  color: #f0c20c;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: BR Firma;
+  line-height: 2.63rem;
 }
 
-.course-item p{
-  color: #FFF;
+.course-item p {
+  color: #fff;
   font-family: BR Firma;
   font-weight: 500;
   font-size: 1rem;
 }
 
-.course-button{
+.course-button {
   display: flex;
   margin-left: 10rem;
   margin-top: -0.5rem;
@@ -373,77 +379,77 @@
   border: none;
 }
 
-.button-1 button{
+.button-1 button {
   width: 7.5rem;
   height: 2rem;
   border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
   border: none;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
-.button-1 button a{
-   font-size: 1.13rem;
-   font-family: BR Firma;
-   font-weight: 500;
-   color: #805CA5;
-   text-align: center;
+.button-1 button a {
+  font-size: 1.13rem;
+  font-family: BR Firma;
+  font-weight: 500;
+  color: #805ca5;
+  text-align: center;
 }
 
-.button-2 button{
+.button-2 button {
   width: 12rem;
   height: 2rem;
   border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
   border: 0.01rem solid #fff;
-  background-color: #805CA5;
+  background-color: #805ca5;
 }
 
-.button-2 button a{
-  color: #FFF;
+.button-2 button a {
+  color: #fff;
   font-family: BR Firma;
   font-weight: 500;
   font-size: 1.13rem;
 }
 
-.button-content{
+.button-content {
   margin-left: 35.5rem;
   margin-top: 0.5rem;
 }
 
-.button-content p{
+.button-content p {
   font-size: 1.13rem;
   font-family: BR Firma;
   font-weight: 500;
-  color: #F0C20C;
+  color: #f0c20c;
 }
 
-.instructor-container{
-  background-color: #CCCCFF40;
+.instructor-container {
+  background-color: #ccccff40;
   height: 45rem;
 }
 
-.instructor-content{
- padding-top: 4.1rem;
+.instructor-content {
+  padding-top: 4.1rem;
 }
 
-.instructor-content h1{
+.instructor-content h1 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #4F92CE;
+  color: #4f92ce;
   text-align: center;
   font-family: BR Firma;
   line-height: 1.83rem;
 }
 
-.instructor-content h2{
- font-family: BR Firma;
- text-align: center;
- color: #805CA5;
- font-size: 2.5rem;
- font-weight: 700;
- height: 3.95rem;
+.instructor-content h2 {
+  font-family: BR Firma;
+  text-align: center;
+  color: #805ca5;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 3.95rem;
 }
 
-.instructor-content p{
+.instructor-content p {
   font-family: BR Firma;
   color: #000000;
   font-size: 1.45rem;
@@ -453,65 +459,62 @@
   line-break: 2.5rem;
 }
 
-.footer-container{
-  background-color: #805CA5;
+.footer-container {
+  background-color: #805ca5;
   height: 23.06rem;
 }
-.footer-layout{
+.footer-layout {
   display: flex;
   padding: 4rem 4rem 9rem 9rem;
   gap: 3rem;
 }
 
-.footer-layout .footer-nav{
+.footer-layout .footer-nav {
   /* padding-left: 2rem; */
   display: flex;
   gap: 3rem;
   /* flex-direction: column; */
 }
 
-.footer-layout .layout-1{
+.footer-layout .layout-1 {
   display: flex;
   flex-direction: column;
   padding-left: 9rem;
 }
-.footer-layout .footer-nav a{
+.footer-layout .footer-nav a {
   font-family: BR Firma;
   font-weight: 700;
-  color: #FFF;
+  color: #fff;
   font-size: 1.125rem;
   line-height: 1.25rem;
 }
 
-.layout-1 p{
+.layout-1 p {
   font-size: 1rem;
   font-family: BR Firma;
   font-weight: 500;
   max-width: 30rem;
   padding-top: 2rem;
   line-height: 1.5rem;
-  color: #FFF;
+  color: #fff;
 }
 
-.input{
+.input {
   position: relative;
   width: 26.5rem;
-  background-color: linear-gradient(275deg, #805CA5, #4F92CE);
-
+  background-color: linear-gradient(275deg, #805ca5, #4f92ce);
 }
 
-.input  input{
+.input input {
   width: 100%;
   border: none;
   padding-inline: 1.5rem;
   padding-block: 1.5rem;
   font-family: BR Firma;
-  color: rgba(51, 51, 51, 0.50);
+  color: rgba(51, 51, 51, 0.5);
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
-  
-
 }
-.newsletter-button{
+.newsletter-button {
   position: absolute;
   top: 0;
   right: 0;
@@ -519,30 +522,30 @@
   width: 7.5rem;
   height: 3rem;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   font-family: BR Firma;
   font-weight: 700;
   margin-right: 0.9rem;
-  background-image: linear-gradient(275deg, #805CA5, #4F92CE);
+  background-image: linear-gradient(275deg, #805ca5, #4f92ce);
   border: none;
   border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
-.caption{
-  color: #FFF;
+.caption {
+  color: #fff;
   font-family: BR Firma;
   line-height: 1.19rem;
   font-size: 1.13rem;
   padding-bottom: 0.5rem;
 }
 
-.footer-icon{
+.footer-icon {
   width: 10.38rem;
   height: 1.56rem;
   padding-top: 1rem;
 }
 
-hr{
+hr {
   width: 76rem;
   height: 0.063rem;
   align-self: center;
@@ -550,15 +553,58 @@ hr{
   margin-left: 9rem;
 }
 
-
-.copyright-footer{
+.copyright-footer {
   margin-top: -5rem;
-
 }
-.copy-right{
+.copy-right {
   text-align: center;
   font-family: BR Firma;
-  color: #FFF;
+  color: #fff;
   padding-top: 2rem;
   font-size: 1.125rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .nav-button {
+    width: 90rem;
+  }
+
+  .head-carousel {
+    width: 90rem;
+  }
+
+  .course-container {
+    width: 90rem;
+  }
+
+  .instructor-container {
+    width: 90rem;
+  }
+
+  .footer-container {
+    width: 90rem;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .nav-button {
+    width: 90rem;
+  }
+
+  .head-carousel {
+    width: 90rem;
+  }
+
+  .course-container {
+    width: 90rem;
+  }
+
+  .instructor-container{
+    width: 90rem;
+  }
+
+  .footer-container{
+    width: 90rem;
+  }
+}
+

@@ -4,6 +4,7 @@ export {default as BUSINESS_LOGO} from './BUSINESS_LOGOS.png';
 export {default as COMPONENT_ICON} from './COMPONENT_ICON.png';
 export {default as CV_ICON} from './CV_ICON.png';
 export {default as CYBER_LOGOS} from './CYBER_LOGOS.png';
+export {default as CYBER_LOGO} from './CYBER_LOGO.png';
 export {default as ELLIPSE_ICONS} from './ELLIPSE_ICONS.png';
 export {default as INTERNSHIP_ICON} from './INTERNSHIP_ICON.png';
 export {default as INTERNSHIP_ICONS} from './INTERNSHIP_ICONS.png';
@@ -21,6 +22,7 @@ export {default as UIUX_LOGOS} from './UI UX_LOGOS.png';
 export {default as UIUX_LOGO} from './UIUX_LOGO.png';
 export {default as LADY_ICON} from './LADY_ICON.png';
 export {default as TECHTITUDE_WHITE} from  './TECHTITUDE WHITE_LOGOS.png'
+export {default as MENTORSHIP_ICON} from  './MENTORSHIP_ICON.png'
 
 
 

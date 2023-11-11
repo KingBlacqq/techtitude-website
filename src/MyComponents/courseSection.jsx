@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import {
   ANALYSIS_ICON,
-  CYBER_LOGOS,
+  CYBER_LOGO,
   SCRUM_LOGO,
   UIUX_LOGO,
 } from "../assets/IMAGES/img";
@@ -85,7 +85,7 @@ const courseSection = function App() {
 
       <div className="course-module">
         <div className="course-data">
-          <img src={CYBER_LOGOS} alt="CYBER LOGO" />
+          <img src={CYBER_LOGO} alt="CYBER LOGO" />
           <div className="course-item">
             <h2>Cyber Security</h2>
             <p>
