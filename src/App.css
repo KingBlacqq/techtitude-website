@@ -211,7 +211,7 @@
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.26rem;
-  color: #333333;
+  color: rgba(35, 35, 35, 0.5);
 }
 
 /* testimonial-section */
@@ -584,6 +584,14 @@ hr {
   .footer-container {
     width: 90rem;
   }
+
+  .ham-burger {
+    display: none;
+  }
+
+  .mobile-logo img{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -599,12 +607,232 @@ hr {
     width: 90rem;
   }
 
-  .instructor-container{
+  .instructor-container {
     width: 90rem;
   }
 
-  .footer-container{
+  .footer-container {
     width: 90rem;
+  }
+  .ham-burger {
+    display: none;
+  }
+
+  .mobile-logo{
+    display: none;
   }
 }
 
+@media screen and (max-width: 430px) {
+  .nav-links,
+  .nav-button {
+    display: none;
+  }
+
+  .ham-burger {
+    display: block;
+    /* width: 18.9375rem;
+   height: 18.1875rem; */
+    margin-left: 80rem;
+    position: absolute;
+    top: 6.8rem;
+  }
+
+  .ham-burger img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .main-content {
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+    height: 42rem;
+  }
+
+  .head-content {
+    margin-top: 5rem;
+    width: 45rem;
+  }
+
+  .head-content h2 {
+    font-size: 6.9rem;
+    line-height: 6.5rem;
+  }
+
+  .head-content p {
+    margin-top: 19rem;
+    font-size: 2.4rem;
+    width: 30.875rem;
+    text-align: left;
+    font-style: normal;
+    font-family: BR Firma;
+    line-height: 3rem;
+  }
+  .head-image {
+    display: none;
+  }
+
+  .head-button {
+    margin-top: 25rem;
+    border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  }
+
+  .head-button button {
+    width: 20.5625rem;
+    padding-block: 1.5rem;
+    border-radius: 1rem 1rem 1rem 1rem;
+  }
+
+  .head-button button a {
+    font-size: 2.25rem;
+  }
+
+  .head-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 28.375rem;
+    height: 25.625rem; */
+  }
+
+  .carousel-card {
+    max-width: 65.375rem;
+    padding-bottom: 30rem;
+  }
+
+  .ellipse {
+    max-height: 20rem;
+    padding: 3rem 3rem 3rem 3rem;
+  }
+
+  .ellipse-icon img {
+    width: 4rem;
+    height: 4rem;
+    margin-top: -2rem;
+    margin-left: 1rem;
+    /* padding-top: -10rem;
+    padding-bottom: -10rem; */
+  }
+
+  .all-item {
+    display: block;
+    justify-content: content;
+    align-items: center;
+    margin-left: 23.1rem;
+    /* padding-left: 45rem; */
+  }
+
+  .carousel-content h2 {
+    font-size: 2rem;
+    font-family: BR Firma;
+    color: #37014f;
+    margin-top: 2rem;
+  }
+
+  .carousel-content p {
+    font-size: 1.5rem;
+    width: 50.75rem;
+    height: 7.1875rem;
+    text-align: center;
+    color: rgba(33, 33, 33, 0.5);
+    line-height: 2.5rem;
+    margin-left: 8.5rem;
+  }
+
+  .testimonial-container {
+    width: 89.5rem;
+    height: 34.5rem;
+  }
+
+  .testimonial-text h1 {
+    font-size: 2.25rem;
+  }
+
+  .client-reviews {
+    width: 64.875rem;
+    height: 30.1875rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11rem;
+  }
+
+  .testimonial-container {
+    padding-bottom: 115rem;
+  }
+
+  .testimonial-quote p {
+    font-size: 1.5rem;
+    width: 45.8585rem;
+    color: #333;
+    line-height: 1.9rem;
+    margin-right: 11rem;
+  }
+
+  .testimonial-star img {
+    width: 5.11125rem;
+    height: 1rem;
+    margin-left: -26rem;
+  }
+
+  .testimonial-author {
+    margin-right: 45rem;
+  }
+
+  .rectangle {
+    width: 2.3125rem;
+    height: 2.125rem;
+  }
+
+  .course-container{
+    width: 26.875rem;
+    height: 190rem;
+    padding-bottom: 20rem;
+  }
+
+  .course-content h2{
+   font-size:  2rem;
+   font-family: BR Firma;
+   margin-left: 35.5rem;
+  }
+
+  .course-content p{
+    font-size:  3rem;
+    text-align: center;
+    width: 25rem;
+    margin-left: 27.5rem;
+  }
+
+  .course-module{
+    width: 64.875rem;
+    height: 30.1875rem;
+    margin-left: 11rem;
+  }
+
+  .laptop-logo img{
+   display: none;
+  }
+
+  .mobile-logo img{
+    display: block;
+  }
+
+  .mobile-logo img{
+    width: 10.5rem;
+    height: 2.4375rem;
+    max-width: 430px;
+  }
+
+  .course-data{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .course-item h2{
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}

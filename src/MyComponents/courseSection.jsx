@@ -5,6 +5,10 @@ import {
   CYBER_LOGO,
   SCRUM_LOGO,
   UIUX_LOGO,
+  BUSINESS_LOGO,
+  CYBER_LOGOS,
+  UIUX_LOGOS,
+  SCRUM_LOGOS,
 } from "../assets/IMAGES/img";
 
 const courseSection = function App() {
@@ -19,7 +23,12 @@ const courseSection = function App() {
 
       <div className="course-module">
         <div className="course-data">
-          <img src={ANALYSIS_ICON} alt="ANALYSIS LOGO" />
+          <div className="laptop-logo">
+            <img src={ANALYSIS_ICON} alt="ANALYSIS LOGO" />
+          </div>
+          <div className="mobile-logo">
+            <img src={BUSINESS_LOGO} alt="BUSINESS LOGO" />
+          </div>
           <div className="course-item">
             <h2>Data Analytics</h2>
             <p>
@@ -52,7 +61,12 @@ const courseSection = function App() {
 
       <div className="course-module">
         <div className="course-data">
-          <img src={ANALYSIS_ICON} alt="ANALYSIS LOGO" />
+          <div className="laptop-logo">
+            <img src={ANALYSIS_ICON} alt="ANALYSIS LOGO" />
+          </div>
+          <div className="mobile-logo">
+            <img src={BUSINESS_LOGO} alt="BUSINESS LOGO" />
+          </div>
           <div className="course-item">
             <h2>Business Analysis</h2>
             <p>
@@ -85,7 +99,12 @@ const courseSection = function App() {
 
       <div className="course-module">
         <div className="course-data">
-          <img src={CYBER_LOGO} alt="CYBER LOGO" />
+          <div className="laptop-logo">
+            <img src={CYBER_LOGO} alt="CYBER LOGO" />
+          </div>
+          <div className="mobile-logo">
+            <img src={CYBER_LOGOS} alt="CYBER LOGO" />
+          </div>
           <div className="course-item">
             <h2>Cyber Security</h2>
             <p>
@@ -118,7 +137,12 @@ const courseSection = function App() {
 
       <div className="course-module">
         <div className="course-data">
-          <img src={UIUX_LOGO} alt="UI/UX LOGO" />
+          <div className="laptop-logo">
+            <img src={UIUX_LOGO} alt="UI/UX LOGO" />
+          </div>
+          <div className="mobile-logo">
+            <img src={UIUX_LOGOS} alt="UIUX LOGO" />
+          </div>
           <div className="course-item">
             <h2>UI/UX Design</h2>
             <p>
@@ -152,7 +176,12 @@ const courseSection = function App() {
 
       <div className="course-module">
         <div className="course-data">
-          <img src={SCRUM_LOGO} alt="SCRUM LOGO" />
+          <div className="laptop-logo">
+            <img src={SCRUM_LOGO} alt="SCRUM LOGO" />
+          </div>
+          <div className="mobile-logo">
+            <img src={SCRUM_LOGOS} alt="SCRUM LOGO" />
+          </div>
           <div className="course-item">
             <h2>Scrum</h2>
             <p>

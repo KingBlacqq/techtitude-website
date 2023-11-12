@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import {
+  BAR_ICONS,
   CV_ICON,
   INTERNSHIP_ICON,
   LADY_ICON,
   MENTORSHIP_ICON,
   PROJECT_ICON,
   TECHTITUDE_LOGO,
-
 } from "../assets/IMAGES/img";
 
 const headerSection = function App() {
@@ -35,16 +35,24 @@ const headerSection = function App() {
             <a href="#">SIGN UP NOW</a>
           </button>
         </div>
+        <div className="ham-burger">
+          <img src={BAR_ICONS} alt="HAM-BURGER" />
+        </div>
       </div>
 
       {/* HEADCONTENT */}
 
       <div className="main-content">
         <div className="head-content">
-          <h2>Upskill<br/> Yourself with<br/> TECHTITUDE</h2>
+          <h2>
+            Upskill
+            <br /> Yourself with
+            <br /> TECHTITUDE
+          </h2>
           <p>
-            We empower <b>WOMEN</b> with the topical<br/> skills and knowledge to
-            become <br/>tech leaders.
+            We empower <b>WOMEN</b> with the topical
+            <br /> skills and knowledge to become <br />
+            tech leaders.
           </p>
         </div>
         <div className="head-button">
@@ -61,9 +69,11 @@ const headerSection = function App() {
 
       <div className="head-carousel">
         <div className="carousel-card">
-          <div className="ellipse"></div>
-          <div className="ellipse-icon">
-            <img src={INTERNSHIP_ICON} alt="INTERNSHIP ICON" />
+          <div className="all-item">
+            <div className="ellipse"></div>
+            <div className="ellipse-icon">
+              <img src={INTERNSHIP_ICON} alt="INTERNSHIP ICON" />
+            </div>
           </div>
           <div className="carousel-content">
             <h2>Internship</h2>
@@ -77,9 +87,11 @@ const headerSection = function App() {
         </div>
 
         <div className="carousel-card">
-          <div className="ellipse"></div>
-          <div className="ellipse-icon">
-         <img src={MENTORSHIP_ICON} alt="MENTORSHIP ICON" />
+          <div className="all-item">
+            <div className="ellipse"></div>
+            <div className="ellipse-icon">
+              <img src={MENTORSHIP_ICON} alt="MENTORSHIP ICON" />
+            </div>
           </div>
           <div className="carousel-content">
             <h2>Mentorship</h2>
@@ -93,9 +105,11 @@ const headerSection = function App() {
         </div>
 
         <div className="carousel-card">
-          <div className="ellipse"></div>
-          <div className="ellipse-icon">
-            <img src={CV_ICON} alt="CV-ICON" />
+          <div className="all-item">
+            <div className="ellipse"></div>
+            <div className="ellipse-icon">
+              <img src={CV_ICON} alt="CV-ICON" />
+            </div>
           </div>
           <div className="carousel-content">
             <h2>CV Revamp</h2>
@@ -108,9 +122,11 @@ const headerSection = function App() {
         </div>
 
         <div className="carousel-card">
-          <div className="ellipse"></div>
-          <div className="ellipse-icon">
-            <img src={PROJECT_ICON} alt="PROJECT ICON" />
+          <div className="all-item">
+            <div className="ellipse"></div>
+            <div className="ellipse-icon">
+              <img src={PROJECT_ICON} alt="PROJECT ICON" />
+            </div>
           </div>
           <div className="carousel-content">
             <h2>Real Life Project</h2>
