@@ -1125,3 +1125,122 @@ hr {
   }
  
 }
+
+@media screen and (max-width: 350px){
+
+  /* .nav-bar{
+    border: 3px solid red;
+  }
+
+  .main-content{
+    border: 2px solid red;
+  } */
+/* 
+.head-content{
+  border: 2px solid red;
+} */
+
+.head-carousel{
+  width: 87.2rem;
+  margin-top: 4rem;
+}
+
+.testimonial-container{
+  width: 87.2rem;
+}
+
+.course-container{
+  width: 87.2rem;
+}
+
+.instructor-container{
+  width: 87.2rem;
+}
+
+.footer-container{
+  width: 87.2rem;
+}
+}
+
+@media  screen and (max-width: 342px) {
+  .ham-burger img{
+    margin-left: -5rem;
+  }
+
+  .head-carousel{
+    width: 85rem;
+  }
+
+  .testimonial-container{
+    width: 85rem;
+  }
+
+  .course-container{
+    width: 85rem;
+  }
+   
+  .instructor-container{
+    width: 85rem;
+  }
+
+  .footer-container{
+    width: 85rem;
+  }
+  
+}
+
+@media screen and (max-width: 320px){
+   
+  .ham-burger img{
+    margin-left: -7rem;
+  }
+  .main-content{
+    width: 60rem;
+  }
+
+  .head-carousel{
+    width: 80rem;
+  }
+
+  .testimonial-container{
+    width: 80rem;
+  }
+
+  .client-reviews{
+    margin-left: 6rem;
+  }
+  
+  .course-container{
+    width: 80rem;
+  }
+
+  .course-content h2{
+    margin-left: 28rem;
+  }
+
+  .course-content P{
+    margin-left: 24rem;
+  }
+
+  .course-module{
+    margin-left: 6rem;
+  }
+
+  .instructor-container{
+    width: 80rem;
+  }
+
+  .instructor-content p{
+    margin-left: 5rem;
+  }
+
+  hr{
+  
+    width: 59rem;
+  }
+  
+  .footer-container{
+    width: 80rem;
+  }
+
+}
