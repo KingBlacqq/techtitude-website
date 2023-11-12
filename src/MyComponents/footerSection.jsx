@@ -32,7 +32,7 @@ const footerSection = function () {
               placeholder="Enter your Email here"
               id="email"
             />
-            <button className="newsletter-button">READ MORE</button>
+            <button className="newsletter-button">Read More</button>
           </div>
           <div className="footer-icon">
             <img src={SOCIALMEDIA_ICON} alt="SOCIALMEDIA ICON" />
@@ -65,7 +65,7 @@ const footerSection = function () {
               placeholder="Enter your Email here"
               id="email"
             />
-            <button className="newsletter-button">SUBSCRIBE</button>
+            <button className="newsletter-button">Subscribe</button>
           </div>
 
           <div className="mobile-socialmedia">

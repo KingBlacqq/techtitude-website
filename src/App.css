@@ -525,6 +525,7 @@
   color: #fff;
   font-family: BR Firma;
   font-weight: 700;
+  text-transform: capitalize;
   margin-right: 0.9rem;
   background-image: linear-gradient(275deg, #805ca5, #4f92ce);
   border: none;
@@ -551,6 +552,7 @@ hr {
   align-self: center;
   text-align: center;
   margin-left: 9rem;
+  color: #FFF;
 }
 
 .copyright-footer {
@@ -592,6 +594,9 @@ hr {
   .mobile-logo img {
     display: none;
   }
+  .mobile-section{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -622,7 +627,9 @@ hr {
     display: none;
   }
 
-
+  .mobile-section{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 430px) {
@@ -764,6 +771,8 @@ hr {
 
   .testimonial-container {
     padding-bottom: 145rem;
+    width: 90rem;
+
   }
 
   .testimonial-quote p {
@@ -902,6 +911,7 @@ hr {
  
   .instructor-container{
     height: 125rem;
+    width: 90rem;
   }
 
   .instructor-content h1{
@@ -918,8 +928,8 @@ hr {
   }
    
   .footer-container{
-    width: 89.5rem;
-    height: 54.5rem;
+    width: 90rem;
+    height: 60.5rem;
   }
 
   .footer-logo img{
@@ -988,4 +998,130 @@ hr {
   .news-letter{
     display: none;
   }
+  .mobile-section{
+    display: block;
+    margin-left: 8.5rem;
+    margin-top: -10rem;
+    height: 35rem;
+  }
+
+  .mobile-section{
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+  }
+
+  .mobile-layout{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mobile-layout .mobile-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+  }
+  .mobile-layout .mobile-nav a{
+    font-weight: 700;
+    color: #FFF;
+    font-size: 3rem;
+    font-family: BR Firma;
+    font-style: normal;
+    height: 3rem;
+    padding-bottom: 8rem;
+  }
+
+  .mobile-layout p{
+    font-size: 2rem;
+    color: #FFF;
+    font-family: BR Firma;
+    font-weight: 500;
+    width: 60rem;
+    padding-bottom: 2rem;
+    line-break: 1.5rem;
+  }
+
+  .mobile-caption{
+    font-size: 2rem;
+    color: #FFF;
+    height: 3rem;
+    font-family: BR Firma;
+  }
+
+  .input input{
+    padding-inline: 10rem;
+    width: 50rem;
+    height: 7.5rem;
+  }
+
+  ::placeholder{
+    font-size: 2rem;
+    font-family: BR Firma;
+    text-align: left;
+  }
+
+  .newsletter-button{
+    font-size: 1.8rem;
+    width: 13rem;
+    height: 5rem;
+    margin-right: -22rem;
+    margin-top: 1.3rem;
+    border-radius: 0.8rem 0.8rem 0.8rem 0.8rem;
+
+  }
+
+  .mobile-socialmedia{
+    margin-top: 1.8rem;
+  }
+
+  .mobile-socialmedia img{
+   width: 15rem;
+   height: 2.5rem;
+  }
+
+  .copy-right p{
+   font-size:  1.5rem;
+  }
+}
+
+@media screen and (max-width: 359px){
+.course-container{
+  width: 80rem;
+}
+
+.main-container{
+  width: 80rem;
+}
+
+.footer-container{
+  width: 80rem;
+}
+
+.testimonial-container{
+  width: 90rem;
+}
+
+.instructor-container{
+  width: 80rem;
+}
+}
+
+@media screen and (max-width: 358px){
+  
+  .course-container{
+    width: 89.90rem;
+  }
+
+  .course-content h2{
+   width: 10rem;
+  }
+
+  .instructor-container{
+    width: 89.90rem;
+  }
+
+  .footer-container{
+    width: 89.99rem;
+  }
+ 
 }
